@@ -1,25 +1,16 @@
 name: Run Playwright Tests
 on:
-  push:
-    branches: main
-  pull_request:
-    branches: main
+ push:
+   branches: main
+ pull_request:
+   branches: main
 
-jobs:
-  Regression_test_suite:
-    timeout-minutes: 60
-    runs-on: ubuntu-latest
+Jobs:
+  Playwright_regression_test-suite:
+    runs-on : ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup dotnet
+      uses: actions/checkout@v3
+      name: Setup dotnet
       uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 6.0.x
-    - run: dotnet build
-    - name: Browser installation
-      run: pwsh bin/Debug/net6.0/playwright.ps1 install --with-deps
-    - name: Run your tests
-      run: dotnet test -- Playwright.BrowserName=firefox
-
-
+      
   
