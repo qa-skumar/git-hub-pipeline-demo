@@ -7,7 +7,6 @@ on:
 
 jobs:
   Regression_test_suite:
-    timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
