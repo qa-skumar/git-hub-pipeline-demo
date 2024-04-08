@@ -9,8 +9,8 @@ Jobs:
   Playwright_regression_test-suite:
     runs-on : ubuntu-latest
     steps:
-      uses: actions/checkout@v3
-      name: Setup dotnet
+    - uses: actions/checkout@v3
+    - name: Setup dotnet
       uses: actions/setup-dotnet@v3
-      
+
   
