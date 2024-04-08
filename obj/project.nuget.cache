@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C+mU8pu5nC/+6NY+cbOg1IF4oOScEmR294WCO2RbtBkDqIZDcxWG5qjFnFqtq3XGboI2kRSQQvalr7PDyuTm/g==",
+  "dgSpecHash": "ExYgeNRplLZhnAQgVA91ze3HOXjjRB2ORpfMejaAYNtKI4u5yjqIUnT14Gzt0x6nImDk0grVAlYRSa78cOZoSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sushant.Kumar\\Desktop\\Githubactiondemo\\git-hub-pipeline-demo\\PlaywrightTests.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Sushant.Kumar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }
