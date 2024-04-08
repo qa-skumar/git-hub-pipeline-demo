@@ -1,16 +1,13 @@
 name: Run Playwright Tests
-on:
- push:
-   branches: main
- pull_request:
-   branches: main
-
+'on':
+  push:
+    branches: main
+  pull_request:
+    branches: main
 Jobs:
   Playwright_regression_test-suite:
-    runs-on : ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup dotnet
-      uses: actions/setup-dotnet@v3
-
-  
+      - uses: actions/checkout@v3
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v3
