@@ -1,9 +1,10 @@
 name: Run Playwright Tests
-'on':
+on:
   push:
     branches: main
   pull_request:
     branches: main
+
 Jobs:
   Playwright_regression_test-suite:
     runs-on: ubuntu-latest
