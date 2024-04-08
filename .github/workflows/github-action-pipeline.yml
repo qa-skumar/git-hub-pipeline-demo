@@ -19,7 +19,7 @@ jobs:
     - name: Browser installation
       run: pwsh bin/Debug/net6.0/playwright.ps1 install --with-deps
     - name: Run your tests
-      run: dotnet test
+      run: dotnet test -- Playwright.BrowserName=firefox
 
 
   
